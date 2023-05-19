@@ -3,4 +3,5 @@ const { asyncCatcher } = require('../utils')
 module.exports = {
   getFilms : asyncCatcher(require('./getFilms')),
   createFilm : asyncCatcher(require('./createFilm')),
+  getFilmByID : asyncCatcher(require('./getFilmByID')),
 }

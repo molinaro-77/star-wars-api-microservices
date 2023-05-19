@@ -5,6 +5,6 @@ const middlewares = require('../middlewares')
 const router = Router();
 
 router.get('/', middlewares.nameQuery, controllers.getCharacters);
-router.get('/:id', middlewares.requireIdParam, controllers.getCharacterById)
+router.get('/:id', middlewares.validateIdParam, controllers.getCharacterById)
 
 module.exports = router;

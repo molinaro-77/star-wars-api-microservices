@@ -1,4 +1,4 @@
 module.exports = {
-  requireIdParam : require('./requireIdParam'),
+  validateIdParam : require('./validateIdParam'),
   nameQuery: require('./nameQuery'),
 }
